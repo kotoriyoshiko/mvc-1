@@ -1,0 +1,21 @@
+#app3 {
+  border: 1px solid red;
+  height: 50vh;
+  width: 50vw;
+}
+
+#app3 > .square {
+  border: 1px pink solid;
+  width: 10vw;
+  height: 10vw;
+  margin-top: 10vh;
+  margin-left: 10vh;
+  transition: transform 1s;
+}
+
+#app3 > .active {
+  transform: translateX(15vw);
+}
+
+
+/*# sourceMappingURL=/app3.48a86793.css.map */

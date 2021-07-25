@@ -1,0 +1,25 @@
+#app2 {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid black;
+}
+
+.tab-bar {
+  display: flex;
+}
+.tab-bar > li {
+  width: 50%;
+  border: 1px solid red;
+}
+
+.tab-bar > .selected {
+  background-color: pink;
+}
+
+.tab-content > li {
+  display: none;
+}
+
+.tab-content > .active {
+  display: block;
+}

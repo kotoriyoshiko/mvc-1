@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+li {
+  list-style: none;
+}
+
+#page {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  overflow: hidden;
+}
+
+
+/*# sourceMappingURL=/reset.302ca0b1.css.map */
